@@ -1,0 +1,21 @@
+table{
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 20%;
+}
+.tab{
+    width: 50%;
+}
+.tab td{
+    width: 20%;
+} 
+.main{
+    background-color: aquamarine;
+    width: 50%;
+    margin-left: 30%;
+    text-align: center;
+}
+.form{
+    margin-top: 1rem;
+}

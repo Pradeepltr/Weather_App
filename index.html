@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+    <nav class="nav">
+        <h4>Pradeep Kumar's Weather App</h4>
+    </nav>
+    <div class="flexbox">
+        <div class="city_details">
+         <button id="get">
+          get_Weather
+         </button>
+         <div class="city" id="city">
+             city
+         </div>
+         <div class="city_name">
+         <button onclick="City_Handle(this.value)" value="London" class="btn">    <h4 id="london">London</h4></button>
+         <button onclick="City_Handle(this.value)" value="New York" class="btn">    <h4 id="newyork">NewYork</h4></button>
+          <button onclick="City_Handle(this.value)" value="Los Angeles" class="btn">   <h4 id="los_ang">Los Anglis</h4></button>
+          <button onclick="City_Handle(this.value)" value="Las Vegas" class="btn">   <h4 id="las_vegas">Las vegas</h4></button>
+
+         </div>
+        </div>
+        <div class="data" id="search">
+        <form class="form">
+            <input type="text" placeholder="Search city" id="search_value">
+            <button type="submit" id="in">Search</button>
+        </form>
+        <table>
+            <th>City</th>
+            <th>Description</th>
+            <th>Tempreture</th>
+            <th>Pressure</th>
+            <th>Data Age</th>
+        </table>
+        <div class="show_data" id="show">
+           
+        </div>
+        </div>
+    </div>
+</main>
+    <script src="index.js"></script>
+</body>
+</html>
